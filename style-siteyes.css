@@ -1,0 +1,18 @@
+body{
+    background-image: url(website-hearts-pattern-background.webp);
+    background-color: beige;
+}
+#main-part-of-website{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    background-color: rgb(126, 126, 119);
+    width: 350px;
+    height: 550px;
+}
+.title-of-main-site-text{
+    color: white;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
