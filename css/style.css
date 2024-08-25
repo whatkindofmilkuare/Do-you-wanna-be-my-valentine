@@ -2,13 +2,14 @@ body{
     background-image: url(../img/background.webp);
     background-color: beige;
 }
-#main-part-of-website{
+#content {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
     background-color: rgb(126, 126, 119);
-    width: 350px;
+    width: 90%;
     height: 500px;
 }
 .title-of-main-site-text{

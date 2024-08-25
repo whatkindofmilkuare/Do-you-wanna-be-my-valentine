@@ -1,21 +1,29 @@
 body{
-    background-image: url(website-flower-pattern-background.webp);
+    background-image: url(../img/background.webp);
     background-color: beige;
 }
-#main-part-of-website{
+#content{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 120px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 10px;
     background-color: rgb(126, 126, 119);
-    width: 550px;
-    height: 800px;
+    width: 90%;
+    height: 65%;
 }
-.title-of-main-site-text{
+#title h1 {
     color: white;
-    font-size: 60px;
+    font-size: 35px;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+#image img {
+    width: 90%;
+    height: 65%;
+}
+
 #buttons{
     color: white;
     font-family: 'Josefin Sans', sans-serif;

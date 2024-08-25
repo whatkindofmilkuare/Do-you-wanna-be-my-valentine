@@ -2,17 +2,18 @@ body{
     background-image: url(../img/background2.webp);
     background-color: beige;
 }
-#main-part-of-website{
+#content{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
     background-color: rgb(126, 126, 119);
-    width: 350px;
-    height: 550px;
+    width: 90%;
+    height: 60%;
 }
 .title-of-main-site-text{
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Josefin Sans', sans-serif;
 }
